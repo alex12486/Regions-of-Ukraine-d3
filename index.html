@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Regions of Ukraine</title>
+</head>
+<meta charset="utf-8">
+<style>
+
+	body {
+		height: 100vh;
+		display: flex;
+		flex-direction: column;
+		margin: 0;
+		overflow: hidden;
+		user-select: none;
+	}
+
+	.diagram {
+		text-align: center;
+	}
+
+	h2 {
+		font-family: sans-serif;
+		font-size: 24px;
+		font-weight: 400;
+		margin: 60px 0 0 0; 
+		text-align: center;
+	}
+
+	div.tooltip {   
+		position: absolute; 
+		display: flex;
+		justify-content: center;
+		align-items: center;                    
+		width: 100px;                  
+		height: 28px;                 
+		padding: 2px;             
+		font: 12px sans-serif;        
+		background: white;   
+		border: 0px;      
+		border-radius: 8px;           
+		pointer-events: none;         
+	}
+
+
+</style>
+<body>
+
+
+	<h2>Regions of Ukraine</h2>
+	<div class="diagram"></div>
+
+
+	<script src="//d3js.org/d3.v4.min.js"></script>
+	<script src="ukraine.js"></script>
+</body>
+</html>
+
+
+
